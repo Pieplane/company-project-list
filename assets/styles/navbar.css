@@ -1,0 +1,135 @@
+.navbar {
+  /* Group 635 */
+
+  position: absolute;
+  width: 1240px;
+  height: 36.51px;
+  left: 340px;
+  top: 64px;
+
+  background: linear-gradient(180deg, #24252f 0%, #31313f 36.46%, #242530 100%);
+}
+.cyberia {
+  /* _2834812530736 */
+
+  position: absolute;
+  left: 0%;
+  right: 89.44%;
+  top: 10.96%;
+  bottom: 13.48%;
+}
+.group128 {
+  /* Group 128 */
+
+  position: absolute;
+  left: 25.97%;
+  right: 32.02%;
+  top: 19.17%;
+  bottom: 20.57%;
+}
+.agency {
+  /* Агентство */
+
+  position: absolute;
+  width: 75px;
+  height: 22px;
+  left: 322px;
+  right: 67.98%;
+  top: 19.17%;
+  bottom: 20.57%;
+
+  font-family: "Fira Sans Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* FFFFFF */
+  color: #ffffff;
+}
+.services {
+  /* Услуги */
+
+  position: absolute;
+  width: 50px;
+  height: 22px;
+  left: 457px;
+  right: 59.11%;
+  top: 19.17%;
+  bottom: 20.57%;
+
+  font-family: "Fira Sans Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* FFFFFF */
+  color: #ffffff;
+}
+.cases {
+  /* Кейсы */
+
+  position: absolute;
+  width: 48px;
+  height: 22px;
+  left: 567px;
+  right: 50.4%;
+  top: 19.17%;
+  bottom: 20.57%;
+
+  font-family: "Fira Sans Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* FFFFFF */
+  color: #ffffff;
+}
+
+.blog {
+  /* Блог */
+
+  position: absolute;
+  width: 36px;
+  height: 22px;
+  left: 675px;
+  right: 42.66%;
+  top: 19.17%;
+  bottom: 20.57%;
+
+  font-family: "Fira Sans Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* FFFFFF */
+  color: #ffffff;
+}
+.contacts {
+  /* Вопросы */
+
+  position: absolute;
+  width: 68px;
+  height: 22px;
+  left: 771px;
+  right: 32.02%;
+  top: 19.17%;
+  bottom: 20.57%;
+
+  font-family: "Fira Sans Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* FFFFFF */
+  color: #ffffff;
+}

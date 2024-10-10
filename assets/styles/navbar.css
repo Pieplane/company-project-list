@@ -1,4 +1,43 @@
-.navbar {
+.mobile-menu {
+  display: none; /* Скрываем на всех экранах */
+}
+
+@media (max-width: 768px) {
+  .mobile-menu {
+    display: block; /* Показываем на экранах до 768px */
+  }
+}
+.desktop-menu {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+}
+
+.desktop-page {
+  /* Desktop - 78 */
+
+  position: relative;
+  width: 1920px;
+  height: 2559px;
+
+  /* Bck */
+  background: linear-gradient(180deg, #24252f 0%, #31313f 36.46%, #242530 100%);
+}
+.mobile-page {
+  /* Mobile / Individual_program */
+
+  position: relative;
+  width: 768px;
+  height: 812px;
+
+  background: #24252f;
+}
+
+.navbar-desktop {
   /* Group 635 */
 
   position: absolute;
@@ -6,10 +45,20 @@
   height: 36.51px;
   left: 340px;
   top: 64px;
-
-  background: linear-gradient(180deg, #24252f 0%, #31313f 36.46%, #242530 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
 }
-.cyberia {
+.nav-desktop-item {
+  font-family: "Fira Sans Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.desktop-cyberia {
   /* _2834812530736 */
 
   position: absolute;
@@ -18,118 +67,89 @@
   top: 10.96%;
   bottom: 13.48%;
 }
-.group128 {
-  /* Group 128 */
-
-  position: absolute;
-  left: 25.97%;
-  right: 32.02%;
-  top: 19.17%;
-  bottom: 20.57%;
-}
-.agency {
-  /* Агентство */
-
-  position: absolute;
+.nav-desktop-item.agency {
   width: 75px;
-  height: 22px;
-  left: 322px;
-  right: 67.98%;
-  top: 19.17%;
-  bottom: 20.57%;
-
-  font-family: "Fira Sans Condensed";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-
-  /* FFFFFF */
-  color: #ffffff;
 }
-.services {
-  /* Услуги */
-
-  position: absolute;
+.nav-desktop-item.services {
   width: 50px;
-  height: 22px;
-  left: 457px;
-  right: 59.11%;
-  top: 19.17%;
-  bottom: 20.57%;
-
-  font-family: "Fira Sans Condensed";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-
-  /* FFFFFF */
-  color: #ffffff;
 }
-.cases {
-  /* Кейсы */
-
-  position: absolute;
+.nav-desktop-item.cases {
   width: 48px;
-  height: 22px;
-  left: 567px;
-  right: 50.4%;
-  top: 19.17%;
-  bottom: 20.57%;
-
-  font-family: "Fira Sans Condensed";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-
-  /* FFFFFF */
-  color: #ffffff;
 }
-
-.blog {
-  /* Блог */
-
-  position: absolute;
+.nav-desktop-item.blog {
   width: 36px;
-  height: 22px;
-  left: 675px;
-  right: 42.66%;
-  top: 19.17%;
-  bottom: 20.57%;
-
-  font-family: "Fira Sans Condensed";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-
-  /* FFFFFF */
-  color: #ffffff;
 }
-.contacts {
-  /* Вопросы */
+.nav-desktop-item.contacts {
+  width: 68px;
+}
+
+.navbar-mobile {
+  /* Component 46 */
 
   position: absolute;
-  width: 68px;
-  height: 22px;
-  left: 771px;
-  right: 32.02%;
-  top: 19.17%;
-  bottom: 20.57%;
+  width: 375px;
+  height: 68px;
+  left: 0px;
+  top: 32px;
+}
+.mobile-cyberia {
+  /* _2834812530736 */
 
-  font-family: "Fira Sans Condensed";
+  position: absolute;
+  left: 7.2%;
+  right: 68%;
+  top: 35.29%;
+  bottom: 35.91%;
+}
+.mobile-menu-burger {
+  /* icon / (32x32) / Menu-burger */
+
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: 21px;
+  top: 35.29%;
+}
+.nav-mobile-burger {
+  /* Rectangle 758 */
+
+  position: absolute;
+  width: 303px;
+  height: 276px;
+  left: 24px;
+  top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+}
+.nav-mobile-item {
+  /* Агенство */
+
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 25px;
   /* identical to box height */
 
-  /* FFFFFF */
-  color: #ffffff;
+  /* EEF3FF */
+  color: #eef3ff;
+}
+.nav-mobile-item.agency {
+  width: 75px;
+}
+.nav-mobile-item.services {
+  width: 59px;
+}
+.nav-mobile-item.cases {
+  width: 56px;
+}
+.nav-mobile-item.blog {
+  width: 40px;
+}
+.nav-mobile-item.contacts {
+  width: 84px;
 }
